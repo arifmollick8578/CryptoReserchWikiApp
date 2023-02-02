@@ -5,7 +5,7 @@ import com.mollick.cryptocurrencywikiapp.data.remote.dto.CoinDto
 
 interface CoinRepository {
 
-    suspend fun getCoin(): List<CoinDto>
+    suspend fun getCoins(): List<CoinDto>
 
     suspend fun getCoinById(id: String): CoinDetailDto
 }
