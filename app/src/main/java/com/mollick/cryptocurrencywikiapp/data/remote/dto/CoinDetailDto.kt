@@ -16,7 +16,7 @@ data class CoinDetailDto(
     val id: String,
     @SerializedName("is_active")
     val isActive: Boolean,
-    @SerializedName("is_active")
+    @SerializedName("is_new")
     val is_new: Boolean,
     @SerializedName("last_data_at")
     val lastDataAt: String,
